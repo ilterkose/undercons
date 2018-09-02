@@ -44,7 +44,7 @@ table {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   padding: 0px;
   background-color: #fff;
 }
@@ -64,8 +64,11 @@ body {
 
 .text-box {
 	position: absolute;
-	top: 60%;
-	left: 60%;
+	transform: translate(35%,50%);
+	font-size: 26px;
+	width: 100%;
+	text-align: center;
+	width: 100%;
 }
 
 .logo-box {
@@ -76,6 +79,7 @@ body {
 }
 
 .logo {
+	width: 100%;
 	opacity: 0.75;
 }
 
@@ -83,12 +87,19 @@ body {
 	opacity: 1;
 }
 
-.mail {
-	font-size: 36px;
-	color: #D3C912;
-	opacity: 0.75;
+.btn:link,
+.btn:visited {
+
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 0.02px solid yellow;/* this is for button border*/
 }
 
-.mail:hover {
-	opacity: 1;
+.btn-iletisim {
+	background-color: #fff;
+	color: #A4A106;
+
 }
