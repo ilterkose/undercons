@@ -56,19 +56,39 @@ body {
   background-position: top;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .text-box {
 	position: absolute;
-	top: 55%;
-	left: 64.5%;
+	top: 60%;
+	left: 60%;
 }
 
 .logo-box {
  position: absolute;
- top: 20%;
- left: 30%;
+ top: 25%;
+ left: 25%;
+ opacity: 0.8;
+}
+
+.logo {
+	opacity: 0.75;
+}
+
+.logo:hover{
+	opacity: 1;
 }
 
 .mail {
 	font-size: 36px;
-	color: #fff;
+	color: #D3C912;
+	opacity: 0.75;
+}
+
+.mail:hover {
+	opacity: 1;
 }
